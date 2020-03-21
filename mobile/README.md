@@ -1,9 +1,6 @@
-# Dragões Corrida até o Limite
-
-°¬> Abrir tela inicial com duas Opcões: <b>Iniciar</b> e <b> see the ranking</b><br/>
+# Dragões Corrida até o Limite - Quiz
+#Palnejando App
+°¬> Abrir <b>tela inicial</b> com duas Opcões: <b>Iniciar</b> e <b> see the ranking</b><br/>
 °|¬> If clik in iniciar open tree more options <i>fácil</i>,<i>médio</i>,<i>dificil</i><br/>
 °|¬> If clik <b>for the first time</b><i>--> Pedir o nickname</i><br/>
--Mostra o ranking <i>em formato de lista</i>
-
-
-
+-Mostra o ranking <i>em formato de lista</i><br/>
