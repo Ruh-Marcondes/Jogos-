@@ -8,3 +8,8 @@
 °¬>Selecionar alternativa e comparar com a alternativa correta <br/>
 °¬> Pontuação - ??????? <br/>
 °¬> Mostrar maior pontuação do jogador na tela inicial<br/>
+°-> Abrir o ranking e mostrar <br/>
+----------------------------------------------------<br/>
+#OBS: <br/>
+----------------------------------------------------<br/>
+#Banco de Dados<br/> 
