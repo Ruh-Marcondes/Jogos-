@@ -1,4 +1,4 @@
-package br.com.marcondes.ruh;
+package br.com.marcondes.ruh.dclimite;
 
 import org.junit.Test;
 
