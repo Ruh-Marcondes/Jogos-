@@ -10,23 +10,36 @@
         android:id="@+id/btn_ranking"
         android:layout_width="141dp"
         android:layout_height="48dp"
+        android:layout_marginStart="134dp"
         android:layout_marginTop="192dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="251dp"
         android:text="@string/btn_ranking"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#6822E4"
         android:textSize="18sp"
         android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_start"
-        tools:layout_editor_absoluteX="134dp" />
+        app:layout_constraintVertical_bias="0.534" />
 
     <LinearLayout
         android:id="@+id/layout_principal"
         android:layout_width="151dp"
         android:layout_height="151dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="41dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="270dp">
+        app:layout_constraintBottom_toTopOf="@+id/btn_ranking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_start">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -50,7 +63,7 @@
                     android:layout_width="53dp"
                     android:layout_height="25dp"
                     android:fontFamily="serif-monospace"
-                    android:text="Fácil"
+                    android:text="@string/btnf"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -76,7 +89,7 @@
                     android:layout_height="25dp"
                     android:layout_weight="1"
                     android:fontFamily="serif-monospace"
-                    android:text="Médio"
+                    android:text="@string/btnm"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -101,7 +114,7 @@
                     android:layout_height="25dp"
                     android:layout_weight="1"
                     android:fontFamily="serif-monospace"
-                    android:text="Dificil"
+                    android:text="@string/btnd"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -110,18 +123,25 @@
 
         </LinearLayout>
     </LinearLayout>
+
     <Button
         android:id="@+id/btn_start"
         android:layout_width="140dp"
         android:layout_height="45dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="136dp"
         android:text="@string/btn_start"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#6822E4"
         android:textSize="18sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintBottom_toTopOf="@+id/layout_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
 

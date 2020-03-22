@@ -2,4 +2,7 @@
     <string name="app_name">Quiz - Dragões</string>
     <string name="btn_start">Start</string>
     <string name="btn_ranking">Ranking</string>
+    <string name="btnf">Fácil</string>
+    <string name="btnm">Médio</string>
+    <string name="btnd">Dificil</string>
 </resources>
