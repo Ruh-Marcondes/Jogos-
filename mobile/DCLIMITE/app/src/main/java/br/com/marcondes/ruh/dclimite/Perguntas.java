@@ -2,6 +2,8 @@ package br.com.marcondes.ruh.dclimite;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.ImageButton;
 
 public class Perguntas extends AppCompatActivity{
     // Variveis
@@ -27,7 +29,15 @@ public class Perguntas extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pergunta);
 
+        ImageButton ib = findViewById(R.id.next);
+        ib.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
+    
 }
