@@ -62,14 +62,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Ñ terminado",Toast.LENGTH_SHORT).show();
             }
         });
-
-        bt = findViewById(R.id.btn_ranking);
-        bt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Ñ terminado",Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 }
 
