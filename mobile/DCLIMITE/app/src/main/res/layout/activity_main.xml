@@ -41,11 +41,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_start">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,7 +50,7 @@
                     android:id="@+id/btn_facil"
                     android:layout_width="56dp"
                     android:layout_height="49dp"
-                    android:backgroundTint="#217DE1"
+                    android:backgroundTint="@color/fmd"
                     app:srcCompat="@android:drawable/ic_media_play" />
 
                 <TextView
@@ -64,7 +59,7 @@
                     android:layout_height="25dp"
                     android:fontFamily="serif-monospace"
                     android:text="@string/btnf"
-                    android:textColor="#000000"
+                    android:textColor="@color/dark"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:visibility="visible" />
@@ -80,7 +75,7 @@
                     android:id="@+id/btn_dificil"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#217DE1"
+                    android:backgroundTint="@color/fmd"
                     app:srcCompat="@android:drawable/ic_media_play" />
 
                 <TextView
@@ -90,7 +85,7 @@
                     android:layout_weight="1"
                     android:fontFamily="serif-monospace"
                     android:text="@string/btnm"
-                    android:textColor="#000000"
+                    android:textColor="@color/dark"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:visibility="visible" />
@@ -105,7 +100,7 @@
                     android:id="@+id/btn_médio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#217DE1"
+                    android:backgroundTint="@color/fmd"
                     app:srcCompat="@android:drawable/ic_media_play" />
 
                 <TextView
@@ -115,14 +110,13 @@
                     android:layout_weight="1"
                     android:fontFamily="serif-monospace"
                     android:text="@string/btnd"
-                    android:textColor="#000000"
+                    android:textColor="@color/dark"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:visibility="visible" />
             </LinearLayout>
 
         </LinearLayout>
-    </LinearLayout>
 
     <Button
         android:id="@+id/btn_start"
@@ -144,4 +138,3 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
-
