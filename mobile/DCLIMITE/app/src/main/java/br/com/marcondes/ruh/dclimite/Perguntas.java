@@ -40,17 +40,13 @@ public class Perguntas extends AppCompatActivity{
         setContentView(R.layout.activity_pergunta);
 
         ImageButton ib = findViewById(R.id.next);
-        TextView tw = findViewById(R.id.txtnumper);
-        tw.setText((String.valueOf(b)));
 
-        pergunta();
-
+        jogada();
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Toast.makeText(getApplicationContext(),"Ñ terminado",Toast.LENGTH_SHORT).show();
-                pergunta();
-                b ++;
+                jogada();
             }
         });
     }
@@ -65,6 +61,12 @@ public class Perguntas extends AppCompatActivity{
         a = rg.nextInt(c);
     }
 
+    public void jogada(){
+        TextView tw = findViewById(R.id.txtnumper);
+        tw.setText((String.valueOf(b)));
+        pergunta();
+        b++;
+    }
     private  void pergunta() {
         TextView tw1 = findViewById(R.id.txtpergunta);
         sorteio();
