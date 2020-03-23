@@ -22,8 +22,23 @@ primary key (iduser)
 );
 
 insert into perguntas(id,pergunta,resposta,alternativa2,alternativa3,alternativa4,dificuldade)
-values(null,'No início da série a qual deus nordico os gemios haviam se dedicado?','Loki','Odin','Thor','Sif','F'),
-	  (null,'Qual o nome do navio que devia ser evitado a qualquer custo, segundo o Johann:','O Ceifeiro','O Cruzeiro','O Justiceiro','O Cesteiro','F'),
-	  (null,'Qual a especie do Dragão, na qual o dente era a chave do Olho de Dragão?','Fantasma da Neve','Canção da Morte','Terror dos Mares','Terror das Neves','F');
+values(null,'No início da série a qual deus nordico os 				gemios haviam se dedicado?',
+			'Loki',
+			'Odin',
+			'Thor',
+			'Sif',
+			'F'),
+	  (null,'Qual o nome do navio que devia ser evitado a qualquer custo, segundo o Johann:',
+	  'O Ceifeiro',
+	  'O Cruzeiro',
+	  'O Justiceiro',
+	  'O Cesteiro',
+	  'F'),
+	  (null,'Qual a especie do Dragão, na qual o dente era a chave do Olho de Dragão?',
+	  'Fantasma da Neve',
+	  'Canção da Morte',
+	  'Terror dos Mares',
+	  'Terror das Neves',
+	  'F');
 
 drop database dclimite;
