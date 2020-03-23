@@ -1,5 +1,6 @@
 package br.com.marcondes.ruh.dclimite;
 
+import android.content.Intent;
 import android.media.session.MediaSession;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -47,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Ñ terminado",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getBaseContext(), Perguntas.class));
+                //Toast.makeText(getApplicationContext(),"Ñ terminado",Toast.LENGTH_SHORT).show();
             }
         });
         btn1.setOnClickListener(new View.OnClickListener() {
